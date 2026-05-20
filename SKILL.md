@@ -27,16 +27,17 @@ The brand must communicate **builder confidence, professional precision, and orc
 
 ## Canonical Source Files
 
-This skill is self-contained. All canonical brand rules live in the reference files in this repository — never override them:
+This skill is self-contained. All canonical brand rules live in this repository — never override them:
 
-| Source | Path |
-|---|---|
-| Brand quick reference | `references/brand-quick-reference.md` |
-| GPT Image 2 preamble | `references/gpt-image2-preamble.md` |
-| Messaging library | `references/messaging-library.md` |
-| Application playbooks | `references/application-playbooks.md` |
+| Source | Path | Role |
+|---|---|---|
+| **Brandbook** | `brandbook.md` | Master document — full brand system specification (contributed by Nevamind CEO) |
+| Brand quick reference | `references/brand-quick-reference.md` | Derived quick-lookup cheat sheet |
+| GPT Image 2 preamble | `references/gpt-image2-preamble.md` | Derived prompt rules |
+| Messaging library | `references/messaging-library.md` | Derived messaging extracts |
+| Application playbooks | `references/application-playbooks.md` | Derived scenario playbooks |
 
-**Order of authority:** reference files in this repository > derived artifacts. The skill repository at `github.com/SeaSea-cc/boids-brand` is the single source of truth.
+**Order of authority:** `brandbook.md` > `references/*` > derived artifacts. When any reference file conflicts with `brandbook.md`, the brandbook wins. The skill repository at `github.com/SeaSea-cc/boids-brand` is the single source of truth.
 
 ## Skill Reference Files
 
@@ -44,6 +45,7 @@ Read the relevant reference file before every authoring task:
 
 | File | When to Read |
 |---|---|
+| `brandbook.md` | When resolving conflicts, auditing brand compliance, or performing full-system reviews — the master specification |
 | `references/brand-quick-reference.md` | Every Boids authoring task — positioning labels, personality, voice, color tokens, typography, forbidden visuals |
 | `references/gpt-image2-preamble.md` | Any task that produces GPT Image 2 prompts for Boids decks/pages |
 | `references/messaging-library.md` | Writing hero copy, headlines, audience messages, narrative arc, taglines |
