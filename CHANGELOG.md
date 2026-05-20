@@ -60,5 +60,6 @@ The list below is a short curated index. The Git tags themselves are the authori
 | Tag | Summary |
 |---|---|
 | `release/2026-05-20-builder-ink-rebuild` | Initial public release. Builder Ink palette (Ink + Bone + Phosphor), Builder Stack typography, Double-Bezel surface system, L2-1 positioning (AI agent orchestration platform). |
+| `release/2026-05-20-gtm-surface-expansion` | Expanded application playbooks from 5 to 26 scenarios across 7 categories — covers full GTM surface of an AI-infra / AI-agent company on a $1B trajectory (sales, marketing, web/product/developer, video, talent, governance, community). Added application surface matrix. |
 
 For changes between commits without an annotated tag, refer to `git log` directly.

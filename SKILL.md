@@ -16,7 +16,10 @@ The brand must communicate **builder confidence, professional precision, and orc
 ## When to Use
 
 - User asks to write, draft, refresh, or revise any Boids-branded copy (deck, pitch, page, social, ad)
-- User asks to build a Boids pitch deck or client-facing deliverable
+- User asks to build any sales-conversion artifact: pitch deck, one-pager / solution brief, customer case study, RFP / procurement / trust pack, investor update, or board deck
+- User asks to produce marketing & demand-gen artifacts: single image, performance / paid-social ad, OOH / billboard, long-form social or thread, email (transactional or nurture), press release / media kit, podcast or video-episode lockup, conference / event booth
+- User asks to author web, product, or developer surfaces: web / landing page, documentation site, API reference, in-product UI, status page, trust center, app-store listing, GitHub org profile, OSS README, changelog / release notes, or CLI / terminal output
+- User asks to write a voiceover, careers page, recruiting deck, incident / postmortem, security advisory, partner / co-marketing lockup, or swag / merch system
 - User asks to generate brand visuals (GPT Image 2) for Boids
 - User asks to apply the Boids brandbook to an existing draft
 - User mentions Boids positioning, category labels, builder voice, or visual identity
@@ -52,12 +55,19 @@ Follow this loop for any Boids authoring task:
 
 ### 1. Identify the application scenario
 
-Match the request to one of the scenarios in `references/application-playbooks.md`:
-- `pitch-deck` — investor or sales pitch deck
-- `single-image` — single marketing image
-- `long-form-social` — long-form social post or thread
-- `voiceover` — TTS narration script for video
-- `web-landing` — web or landing page
+Match the request to one of the **26 playbooks** in `references/application-playbooks.md`. The skill covers the full GTM brand surface of an AI-infra / AI-agent company on a $1B trajectory, organised into 7 categories:
+
+| Category | Playbooks |
+|---|---|
+| **A. Sales & Conversion** | Pitch deck · One-pager / solution brief · Customer case study · RFP / procurement / trust pack · Investor update / board deck |
+| **B. Marketing & Demand Gen** | Single marketing image · Performance ad / paid social · OOH / billboard · Long-form social / thread · Email system · Press release / media kit · Podcast / video lockup · Conference / event booth |
+| **C. Web, Product & Developer** | Web / landing page · Documentation & API reference · In-product UI · Status & trust center · App-store listing · GitHub org / OSS README · Changelog / release notes · CLI / terminal output |
+| **D. Video & Voice** | Voiceover / narration script |
+| **E. Talent & Culture** | Careers page & recruiting deck |
+| **F. Governance & Crisis** | Incident / postmortem / security advisory |
+| **G. Community & Ecosystem** | Co-marketing / partner lockup · Swag / merch system |
+
+Start with the application surface matrix at the top of `references/application-playbooks.md`, then read the matching playbook section before authoring.
 
 ### 2. Apply the brand layer in this order
 
