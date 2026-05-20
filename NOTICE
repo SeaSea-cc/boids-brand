@@ -1,0 +1,34 @@
+boids-brand — Boids Brand Agent Skill
+Copyright 2026 Nevamind-AI
+
+This product includes software and documentation developed by
+Nevamind-AI (https://nevamind.ai) and authored by Seasea Brand OS
+(https://seasea.cc) for the Boids product (https://boids.so).
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+A copy of the License is available in the LICENSE file in this
+distribution and at http://www.apache.org/licenses/LICENSE-2.0.
+
+TRADEMARK NOTICE
+================
+
+"Boids" and the Boids word mark, logo, visual identity, and Builder
+Ink color system identifiers are trademarks of Nevamind-AI. This
+License does not grant permission to use these trademarks except as
+required for describing the origin of the Work (see License §6).
+
+See TRADEMARKS.md for the trademark usage policy.
+
+THIRD-PARTY TYPEFACE ATTRIBUTION
+================================
+
+This skill references the following third-party typefaces by name as
+required components of the Boids visual system. These typefaces are
+not distributed with this skill; users must obtain valid licenses
+from the respective foundries.
+
+- PP Editorial New     — Pangram Pangram Foundry      (pangrampangram.com)
+- Cabinet Grotesk      — Indian Type Foundry           (fontshare.com)
+- Geist                — Vercel Inc.                   (vercel.com/font)
+- JetBrains Mono       — JetBrains s.r.o.              (jetbrains.com/mono)

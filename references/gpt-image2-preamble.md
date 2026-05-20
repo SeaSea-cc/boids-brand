@@ -1,7 +1,8 @@
 # Boids Brand — GPT Image 2 Prompt Preamble
 
-> Extracted from `workspaces/nevamind/brand/boids-brandbook.md` §7.
+> Canonical preamble for every Boids GPT Image 2 prompt.
 > Paste this preamble verbatim at the start of every Boids GPT Image 2 prompt.
+> Confidentiality watermark text (e.g. `Privileged&Confidential`) is optional and depends on the deliverable's distribution context — see notes after the preamble.
 
 ## Canonical Preamble
 
@@ -31,6 +32,14 @@ framing. Do not draw the Boids logo. Add the exact text
 "Privileged&Confidential" in small light-gray type at the bottom-right
 corner. Add a small page number at the top-right corner in JetBrains Mono.
 ```
+
+## Confidentiality Watermark (Optional)
+
+The preamble above includes the literal text `Privileged&Confidential` in the bottom-right corner. This is appropriate for **internal**, **NDA-protected**, or **investor-only** decks. For **public** Boids assets (marketing pages, social posts, press kits), **omit** the confidentiality watermark by removing the sentence:
+
+> "Add the exact text 'Privileged&Confidential' in small light-gray type at the bottom-right corner."
+
+Replace with the producing organization's own footer convention, or leave the bottom-right empty.
 
 ## Required Elements Checklist
 

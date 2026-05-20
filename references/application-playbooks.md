@@ -1,7 +1,8 @@
 # Boids Brand — Application Playbooks
 
-> Extracted from `workspaces/nevamind/brand/boids-brandbook.md` §6.
-> Scenario-specific application rules. Pick one playbook per artifact.
+> Scenario-specific application rules.
+> Pick one playbook per artifact.
+> Confidentiality watermark text (e.g. `Privileged&Confidential`) appears below only as an optional governance overlay — apply it only when the deliverable's distribution context requires it.
 
 ## Five Playbooks
 
@@ -19,7 +20,7 @@
 - Data: JetBrains Mono, tabular-nums
 - 3% grain overlay mandatory
 - 5% top-left blank zone (no logo drawn)
-- `Privileged&Confidential` bottom-right, 10px JetBrains Mono, Ink @ 35%
+- `Privileged&Confidential` bottom-right (optional, internal/NDA decks only), 10px JetBrains Mono, Ink @ 35%
 - Page number top-right, JetBrains Mono, Stone
 
 **Content rules:**
@@ -118,12 +119,10 @@
 
 ## Visual Asset Amendment (all playbooks)
 
-Every visual asset generated under any playbook must apply the §4 Builder Ink rules:
+Every visual asset generated under any playbook must apply the Builder Ink rules:
 - Builder Ink palette (Ink + Bone + Phosphor flat)
 - Builder Stack typography (PP Editorial New + Cabinet Grotesk + Geist + JetBrains Mono)
 - Double-Bezel surface construction
 - 3% grain overlay
 - No teal, no navy, no azure, no purple-to-blue gradient
 - No banned fonts
-
-All v1.0 (pre-VI-rebuild) deck pages, hero banners, and GPT Image 2 outputs that used Navy + Teal-Blue are deprecated. Regenerate using the §7 preamble before next external publication.

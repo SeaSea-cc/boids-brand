@@ -1,6 +1,6 @@
 # Boids Brand — Messaging Library
 
-> Extracted from `workspaces/nevamind/brand/boids-brandbook.md` §5.
+> Canonical hero copy, headlines, narrative arcs, audience messages, and taglines.
 > Use for hero copy, headlines, audience messaging, narrative arcs, and taglines.
 
 ## Hero Copy

@@ -1,6 +1,6 @@
 # Boids Brand — Quick Reference
 
-> Extracted from `workspaces/nevamind/brand/boids-brandbook.md` §1–§4.
+> Canonical positioning, personality, voice, and visual identity for Boids.
 > Read this file before every Boids authoring task.
 
 ## Positioning
@@ -161,6 +161,10 @@ All icons use **one stroke weight**: 1.5px.
 
 ---
 
-## Partner Rules
+## Partner & Brand Approval
 
-Brand approval: `brand@nevamind.ai` — 5 business days standard.
+For uses outside the Permitted Uses defined in `TRADEMARKS.md`, request brand approval:
+
+**Contact:** `brand@nevamind.ai` — 5 business days standard.
+
+See [`TRADEMARKS.md`](../TRADEMARKS.md) for the full trademark usage policy.

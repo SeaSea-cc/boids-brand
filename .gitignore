@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Local agent caches (Qoder / Claude / Cursor / Windsurf / Trae)
+.qoder/
+.claude/cache/
+.cursor/cache/
+.codex-tools/
+.windsurf/
+.trae/
+.npm-cache/
+
+# Local scratch
+/_local/
+/_scratch/
+scripts/.cache/
+
+# Node (if any tooling is added later)
+node_modules/
+.pnpm-store/
