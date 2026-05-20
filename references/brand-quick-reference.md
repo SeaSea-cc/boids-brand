@@ -1,44 +1,70 @@
-# Boids Brand — Quick Reference
+# Boids Brand — Quick Reference (v1.2)
 
-> Canonical positioning, personality, voice, and visual identity for Boids.
+> **Brandbook version:** v1.2 — confirmed by Nevamind / Boids founder Chen Hong.
+> **Source of truth:** [`brandbook.md`](./brandbook.md). When this file conflicts with the brandbook, the brandbook wins.
 > Read this file before every Boids authoring task.
 
-## Positioning
+---
+
+## Brand at a Glance
+
+| | |
+|---|---|
+| **In three words** | Build. Distribute. Work. |
+| **Universal hero** | Build expert agents. Bring them everywhere. |
+| **C-end product hero** | Bring expert agents to work with you. |
+| **API / CLI hero** | Build products with agents. Ship through API and CLI. |
+| **Support line** | Build what you know. Deploy what you trust. Boids runs the loop. |
+| **Canonical sentence** | Boids is made for A2A: expert agents that can be called, composed, and distributed across human and agent workflows. |
+
+---
+
+## Positioning (v1.2)
 
 ### What Boids Is
 
-**Boids is an AI agent orchestration platform that lets professional users build, run, and publish AI agents into repeatable multi-step workflows.**
+**Boids is the Expert Agent Platform** for building, distributing, and working with AI agents. It ships as **two distinct products** on the same shared agent network.
 
-Boids is the **L2-1 professional layer** of Nevamind's persistent-AI architecture — sitting on top of MemU (memory) and beneath Antifomo (professional tools).
+#### Two product lines
+
+| Product | Audience | Positioning line |
+|---|---|---|
+| **Boids Product** | Regular users (C-end) | *Bring expert agents to work with you.* — consumer app + Slack / Telegram / IM integrations |
+| **Boids API / CLI** | Developers | *Build products with agents. Ship through API and CLI.* — developer infrastructure + A2A network |
+
+Every Boids agent is **callable, composable, distributable, verifiable, and work-native**. What is published by one product is callable by the other.
 
 ### Approved Category Labels
 
 | Label | Context |
 |---|---|
-| **AI Agent Orchestration Platform** | Investor / category leadership / homepage |
-| **Professional AI Agent Marketplace** | Partnership / B2B sales / enterprise |
-| **Build, run, and publish AI agents** | Product surface / onboarding / first task |
-| **Agent skill platform with credit loop** | Technical / investor / competitive positioning |
+| **Expert Agent Platform** | Homepage / brand-level positioning |
+| **Agent Build & Distribution Platform** | Product / investor / category leadership |
+| **Professional AI Agent Network** | Partnership / B2B / ecosystem |
+| **A2A-native Agent Platform** | Technical / protocol-facing |
+| **Bring expert agents to work with you** | C-end product / user-facing |
+| **Build products with agents, ship through API and CLI** | Developer / API-facing |
+| **Agent skill platform with credit loop** | Technical / investor / competitive |
 
 ### What Boids Is NOT
 
 | Never say this | Why |
 |---|---|
-| "AI chatbot marketplace" | L1a consumer framing |
-| "Talk to AI celebrities" | Persona-agent framing (L1a) |
-| "Memory infrastructure" | L3 developer framing; MemU owns this layer |
-| "One-click AI automation" | Hype language that undercuts the builder narrative |
-| "No-code AI tool" | Tool framing; Boids is a platform, not a tool |
+| "AI chatbot marketplace" | Too consumer, too passive |
+| "Talk to AI celebrities" | Persona-agent framing, not professional work |
+| "One-click AI automation" | Reduces Boids to one use case |
+| "No-code AI tool" | Tool framing; Boids is a platform |
+| "Developer API marketplace" | Too narrow; ignores the consumer product |
+| "AI app store" | Too static; agents on Boids are built, distributed, called, composed, and used |
 
-### Layer Relationship
+### Nevamind Product Map
 
 ```
-Nevamind (company)
-  └── "Makes AI persistent"
-
-  ├── Antifomo (L1-2 — work efficiency / productivity AI)
-  ├── Boids (L2-1 — agent orchestration platform) ← YOU ARE HERE
-  └── MemU (L3 — AI memory framework)
+Nevamind
+  └── Builds professional AI products
+  └── Boids
+      ├── Boids Product (C-end, regular users)
+      └── Boids API / CLI (developers)
 ```
 
 ---
@@ -46,11 +72,11 @@ Nevamind (company)
 ## Brand Personality
 
 | Priority | Archetype | Expression |
-| --- | --- | --- |
-| Primary | **The Builder** | Mastery-enabling, construction-oriented, tool-forward |
-| Secondary | **The Systems Thinker** | Orchestration-aware, process-obsessed, efficiency-driven |
+|---|---|---|
+| Primary | **The Builder** | Mastery-enabling, construction-oriented, distribution-forward |
+| Secondary | **The Systems Thinker** | Orchestration-aware, composability-obsessed, work-native |
 
-In three words: **Build. Run. Publish.**
+In three words: **Build. Distribute. Work.**
 
 ---
 
@@ -58,39 +84,74 @@ In three words: **Build. Run. Publish.**
 
 **Builder's confidence · Professional precision · Systems thinking · Empathetic peer · Measured ambition.**
 
+Boids speaks like someone who has already shipped the system — not someone trying to sell you on building it.
+
 ### Verb Register
 
 | Register | Use | Avoid |
 |---|---|---|
-| **L2-1 verbs (use)** | build, run, publish, rank, credit, orchestrate | — |
-| **L1a verbs (never)** | — | chat, discover, consume, talk, play |
+| **Boids verbs (use)** | build, distribute, publish, call, compose, deploy, ship, earn, compound, bring, integrate, run | — |
+| **Banned verbs (never)** | — | chat, discover, consume, talk, play, explore, connect |
+
+### Forbidden Phrasings
+
+- "AI chatbot" / "chat with AI"
+- "No-code" / "one-click"
+- "Talk to your AI"
+- "AI-powered" (vague, avoid)
+- "Cutting-edge" / "state-of-the-art" / "revolutionary"
+- Any framing that reduces Boids to a single use case or consumer product
 
 ---
 
-## Visual Identity — Builder Ink Palette
+## Visual Identity — "Precision Mono + Ambient Glow"
 
-### Color Tokens
+A strict black-and-white base with a three-color **ambient glow** as the decorative layer. Black and white carry the structure; the glow carries the energy. The decorative layer is **never a stripe gradient** — it is a radial, atmospheric wash. In dark mode: vibrant glows on deep black. In light mode: soft pastel washes on white. Both use the same color family.
 
-| Role | Name | Hex | OKLCH | Use |
-|---|---|---|---|---|
-| Brand Primary | **Ink** | `#0F0F0E` | `oklch(0.16 0.003 60)` | Hero surfaces, primary text on light, brand-mark fill |
-| Light Surface | **Bone** | `#F2EDE4` | `oklch(0.94 0.011 80)` | Workspace canvas, content backgrounds, deck pages |
-| Single Accent | **Phosphor** | `#C7FF4A` | `oklch(0.94 0.20 122)` | CTAs, active workflow nodes, credit indicators, selection state — ONE accent, always flat |
-| Neutral 100 | **Bone-200** | `#E8E2D6` | `oklch(0.89 0.014 80)` | Card surface on Bone, subtle dividers |
-| Neutral 400 | **Stone** | `#A8A096` | `oklch(0.69 0.012 80)` | Secondary text, metadata, captions |
-| Neutral 700 | **Ash** | `#3A3833` | `oklch(0.32 0.005 70)` | Body text on Bone, hairlines on Ink @ 12% |
-| Deep Surface | **Onyx** | `#1A1916` | `oklch(0.20 0.004 70)` | Dark-mode surface, terminal frames |
-| Functional Warning | **Ochre** | `#C99B3F` | `oklch(0.71 0.13 76)` | Retry / pending — state color only, never decoration |
-| Functional Error | **Terracotta** | `#C24A3A` | `oklch(0.55 0.16 30)` | Build failure — state color only, never decoration |
+### Base Palette
+
+| Role | Name | Hex | Use |
+|---|---|---|---|
+| Brand Primary | **Black** | `#0D0D0D` | Hero surfaces, primary text, brand-mark fill |
+| Light Surface | **White** | `#FFFFFF` | Workspace canvas, content backgrounds |
+| Neutral 50 | **Gray-50** | `#F7F7F7` | Card surfaces on White |
+| Neutral 400 | **Gray-400** | `#9E9E9E` | Secondary text, metadata, captions |
+| Neutral 700 | **Gray-700** | `#3D3D3D` | Body text, hairlines |
+| Deep Surface | **Onyx** | `#1A1916` | Dark-mode surface, terminal frames |
+| Functional Warning | **Ochre** | `#C99B3F` | Retry / pending — never decorative |
+| Functional Error | **Terracotta** | `#C24A3A` | Build failure — never decorative |
+
+### Ambient Glow — Three-Color System
+
+Three colors used **only** as radial ambient glows — never as stripe gradients, never as full background fills.
+
+```
+#06B6D4   Cyan / Deep Blue    — cool, technical, active
+#8B5CF6   Purple / Violet     — depth, intelligence, brand
+#EC4899   Pink / Rose         — warmth, energy, human
+```
+
+**Glow usage rules:**
+
+| Context | Usage |
+|---|---|
+| CTA button border | 1–2px glow gradient stroke, Black fill inside |
+| Active agent nodes / selected state | Glow via `box-shadow` |
+| Brand moments (cover, hero) | Radial glow as background light source |
+| Icon accent | Glow color stroke, 1.5px weight |
+| Credit indicators / agent distribution state | Glow pulse animation |
+
+**Hard rules:**
+- Never fill large background surfaces with glow colors directly.
+- Glow is always **radial, diffused, atmospheric** — never a sharp stripe or flat fill.
+- On dark (Black / Onyx): full saturation. On White: desaturated, pastel tint.
+- All three colors must coexist on a surface — **no single-color pulls**.
 
 ### Color Hard Rules
 
-- **One accent only.** Phosphor carries every emphasis state.
-- **No gradient as a primary surface or background.** Phosphor is flat fill or 1px hairline only.
-- **No pure black `#000000`.** Use Ink (`#0F0F0E`) or Onyx (`#1A1916`).
 - **No cool gray.** Banned: `#FAFAFA`, `#F5F5F5`, `#E5E5E5`.
-- **Tinted shadows only.** `oklch(0.16 0.003 60 / 0.08)` — never `rgba(0,0,0,*)`.
-- **Texture mandate.** Every brand surface carries a fixed grain overlay at 3% opacity, `pointer-events:none`.
+- **Tinted shadows only.** Black at 8% opacity, never `rgba(0,0,0,*)`.
+- **Texture mandate.** Every brand surface carries a fixed grain overlay at 3% opacity, `pointer-events: none`.
 
 ### Typography — Builder Stack
 
@@ -99,7 +160,7 @@ In three words: **Build. Run. Publish.**
 | Display | **PP Editorial New** | Ultralight (200), Italic | Hero headlines, brand moments |
 | Display alt | **Cabinet Grotesk** | Bold (700), Extrabold (800) | Eyebrow tags, section titles, deck headers |
 | Body | **Geist** | Regular (400), Medium (500), Semibold (600) | Product UI, documentation, body copy |
-| Mono / Data | **JetBrains Mono** | Regular (400), Medium (500) | Agent logs, skill configs, execution data, credit tables, tabular numbers |
+| Mono / Data | **JetBrains Mono** | Regular (400), Medium (500) | Agent logs, API configs, credit tables, tabular numbers |
 
 **Banned families (auto-fail):** Inter, Roboto, Arial, Open Sans, Helvetica, SF Pro, Source Sans Pro, Space Grotesk.
 
@@ -107,57 +168,106 @@ In three words: **Build. Run. Publish.**
 
 ### Surface — Double-Bezel
 
-Every card, panel, or major container:
+Every card, panel, or major container uses nested-enclosure construction:
 
 ```
-Outer Shell:  bg = Bone-200, padding = 6px, ring = 1px Ink @ 5%, radius = 24px
-Inner Core:   bg = Bone,     padding = 24px,                     radius = 18px
-              + inset highlight: shadow inset 0 1px 1px Bone @ 60%
+Outer Shell:  bg = Gray-50,  padding = 6px,  ring = 1px Black @ 5%,  radius = 24px
+Inner Core:   bg = White,    padding = 24px,                          radius = 18px
+              + inset highlight: shadow inset 0 1px 1px White @ 60%
 ```
+
+**Primary CTA button:** pill (rounded-full), padding 12px 24px, fill = Black, text = White, **glow border** (1.5px gradient stroke). Trailing arrow ↗ inside its own 32×32 circle (glow @ 12%).
+
+```
+[ Build your first expert agent   ( ↗ ) ]
+```
+
+**Eyebrow tag:** Cabinet Grotesk 10px, +0.2em uppercase, bg: glow @ 10%, text: Black.
+
+```
+〔 EXPERT AGENT PLATFORM 〕
+Build expert agents. Bring them everywhere.
+```
+
+### Texture & Shadow
+
+| Element | Spec |
+|---|---|
+| Grain overlay | Fixed, `inset: 0`, `pointer-events: none`, `opacity: 0.03` |
+| Card shadow | `0 1px 2px Black/0.04, 0 8px 24px Black/0.06` |
+| Hover lift | `translateY(-2px)` + shadow → Black/0.10, `cubic-bezier(0.32, 0.72, 0, 1)` 400ms |
+| Banned | `shadow-md`, `rgba(0,0,0,0.3)`, glassmorphism on scrolling content |
 
 ### Layout Archetypes
 
 | Archetype | Use For |
 |---|---|
-| **Asymmetric Bento** | Marketing pages, product showcases |
-| **Editorial Split** | Narrative landing, About, Manifesto |
-| **Document Bento** | Docs, agent config, skill marketplace |
+| **Asymmetric Bento** | Marketing pages, product showcases — CSS Grid, varied col-span. Never 3-equal-card row. |
+| **Editorial Split** | Narrative landing, About, Manifesto — `w-1/2` Editorial New left + scrollable interactive right. |
+| **Document Bento** | Docs, API reference, agent configs — max-width 1200px, asymmetric grid, 65-char body |
 
-**Universal:** Section padding ≥ 32px desktop. Whitespace ≥ 40%. Max content width 1200–1440px. 65ch body max. Sentence case only.
+**Universal:** Section padding `py-32` desktop / `py-16` mobile minimum. Whitespace ≥ 40%. Max content width 1200–1440px. Body ≤ 65ch. `min-height: 100dvh` for full-screen sections. Mobile (<768px): single column, `w-full`, `px-4`. Sentence case only.
 
 ### Slide / Deck Format (1920×1080)
 
 - 5% top-left blank logo zone (never draw the logo in generated images)
-- `Privileged&Confidential` watermark: 10px JetBrains Mono, Ink @ 35%, bottom-right
+- `Privileged&Confidential` watermark: 10px JetBrains Mono, Black @ 35%, bottom-right (optional — internal / NDA decks only)
 - Whitespace ≥ 40%
-- One core insight per page
-- Grain overlay at 3% mandatory
-- Page number: JetBrains Mono, Stone, top-right
+- One core insight per page; never two H1s
+- Footer source citation on data slides: 9px JetBrains Mono, Gray-400, left-aligned
+- Grain overlay at 3% mandatory on every slide
+- Page number: JetBrains Mono, Gray-400, top-right, every slide except cover
+- **Glow rule:** radial ambient light source only — never stripe wash across slide
 
 ### Iconography
 
 | Tier | System | Use |
 |---|---|---|
-| Primary | **Phosphor (Light, 1.5px stroke)** | All UI iconography |
-| Brand | **Custom Boids glyphs** | Build / Run / Publish / Rank / Credit |
+| Primary | **Phosphor Icons (Light, 1.5px stroke)** | All UI iconography |
+| Brand | **Custom Boids glyphs** | Build / Distribute / Call / Compose / Credit |
 | Banned | Lucide, Feather, FontAwesome, Material Icons | Generic AI default |
 
-All icons use **one stroke weight**: 1.5px.
+One stroke weight: **1.5px** across all surfaces.
 
 ### Forbidden Visuals
 
-**Never:** Emojis. Cartoon / 3D-glossy AI brains or robots. Stock-photo people. Handshake / coin / rocket / flag / globe metaphors. Centered all-caps body. Saturated brand-color washes. Isolated chat-input screenshots. Overcrowded UI.
+**Always banned:**
+- Emojis in brand contexts
+- Cartoon / 3D-glossy "AI brains" or robots
+- Stock-photo people
+- Handshake / coin / rocket / flag / globe metaphors
+- Centered all-caps body text
+- Isolated chat-input screenshots
+- Equal-height 3-card feature rows
 
-**Newly banned:** Pure `#000000` or `#FFFFFF` backgrounds. Linear gradients across full surfaces. Teal-to-blue or purple-to-blue gradients. Glassmorphism on scrolling content. Lucide / Feather / Material default icons. Inter / Roboto / Open Sans / Helvetica / Space Grotesk. Equal-height 3-card feature rows. Cool gray `#FAFAFA`. `box-shadow: 0 4px 6px rgba(0,0,0,0.1)`. Centered hero with ghost-button-pair below H1.
+**Color / surface bans:**
+- Glow colors as full background fills
+- Teal-to-blue or purple-to-blue stripe gradients
+- Glassmorphism on scrolling content
+- Cool grays (`#FAFAFA`, `#F5F5F5`, `#E5E5E5`)
+- Generic `box-shadow: rgba(0,0,0,0.1)`
+- Centered hero with ghost-button-pair below H1
 
 ### Logo Direction
 
-- Communicates: orchestration, agent swarm, directional flow, professional confidence
+- Communicates: agent network, distribution flow, professional confidence
 - Wordmark: Cabinet Grotesk Extrabold, `-0.04em` tracking
-- Approved on: Ink, Bone, Onyx, Phosphor (accent under Ink wordmark only)
-- **Never on**: gradients, pure black, pure white, busy photography
+- Approved on: Black, White, Onyx — with ambient glow as background accent only
+- **Never on**: gradient fills, busy photography, low-contrast surfaces
 - **In GPT Image 2 prompts**: never draw the logo; reserve 5% top-left blank square
-- Tagline: Geist Medium 60% size of wordmark, `+0.05em` tracking, Stone color
+- Tagline: Geist Medium 60% size of wordmark, `+0.05em` tracking, Gray-400
+
+---
+
+## Authoring Checklist
+
+Before publishing any Boids copy:
+- [ ] Is it clear which product line this is for? (C-end product, API / CLI, or universal / brand-level)
+- [ ] Does it use the right verbs? (build / ship / distribute / call / compose / integrate / earn)
+- [ ] Does it avoid consumer chat framing? (no "chat", "talk", "discover")
+- [ ] Does it treat agents as callable, composable, distributable?
+- [ ] Is it sentence case? No Title Case headers.
+- [ ] Does it avoid "AI-powered", "cutting-edge", "revolutionary"?
 
 ---
 

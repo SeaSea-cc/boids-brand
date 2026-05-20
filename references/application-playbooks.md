@@ -1,8 +1,29 @@
-# Boids Brand — Application Playbooks
+# Boids Brand — Application Playbooks (v1.2)
 
-> Scenario-specific application rules covering the full GTM surface of an AI-infra / AI-agent company on a $1B trajectory.
-> Pick **one playbook per artifact**. Always read [`brand-quick-reference.md`](./brand-quick-reference.md) for tokens before applying any playbook below.
+> **Brandbook version:** v1.2 — confirmed by Nevamind / Boids founder Chen Hong.
+> **Source of truth:** [`brandbook.md`](./brandbook.md). When this file conflicts with the brandbook, the brandbook wins.
+> Scenario-specific application rules covering the full GTM surface of the Boids expert agent platform (Boids Product C-end + Boids API / CLI for developers) on a $1B trajectory.
+> Pick **one playbook per artifact**. Always read [`brand-quick-reference.md`](./brand-quick-reference.md) for v1.2 tokens before applying any playbook below.
 > Confidentiality watermark text (e.g. `Privileged&Confidential`) appears below only as an optional governance overlay — apply it solely when the deliverable's distribution context requires it. Public, OSS, and developer-facing surfaces almost never carry it.
+
+## v1.2 Visual Token Migration (read this first)
+
+The brandbook moved from v1.1 "Builder Ink" (Bone / Ink / Phosphor) to **v1.2 "Precision Mono + Ambient Glow"**. When you read any playbook below, apply the following token translation on the fly:
+
+| v1.1 token (legacy) | v1.2 equivalent (use this) |
+|---|---|
+| Builder Ink palette | Precision Mono + Ambient Glow palette |
+| Bone background / canvas `#F2EDE4` | White `#FFFFFF` (or Black `#0D0D0D` for inverted-night) |
+| Ink text / fill `#0F0F0E` | Black `#0D0D0D` |
+| Bone-200 outer card surface `#E8E2D6` | Gray-50 outer card surface `#F7F7F7` |
+| Stone secondary text `#A8A096` | Gray-400 `#9E9E9E` |
+| Ash body text `#3A3833` | Gray-700 `#3D3D3D` |
+| Single flat Phosphor `#C7FF4A` accent | **Ambient glow accent** — radial gradient stroke / box-shadow built from Cyan `#06B6D4` + Violet `#8B5CF6` + Rose `#EC4899`. All three colors must coexist. Never a stripe gradient. Never a single-color pull. |
+| L2-1 verbs (build · run · publish) | Boids verbs (build · distribute · publish · call · compose · deploy · ship · earn · compound · bring · integrate · run) |
+| `Build. Run. Publish.` motto | `Build. Distribute. Work.` motto |
+| `BUILD / RUN / PUBLISH` stepper labels | `BUILD / DISTRIBUTE / WORK` stepper labels |
+
+Where a playbook says "single Phosphor accent" or "Phosphor chip", read it as "single ambient-glow accent" — the underlying anti-default rule (one accent per surface, flat structural base) is unchanged.
 
 ---
 
@@ -713,15 +734,18 @@
 
 ---
 
-## Visual Asset Amendment (all playbooks)
+## Visual Asset Amendment (all playbooks — v1.2)
 
-Every visual asset generated under any playbook must apply the Builder Ink rules:
-- Builder Ink palette (Ink + Bone + Phosphor flat) — one accent per surface
+Every visual asset generated under any playbook must apply the **v1.2 Precision Mono + Ambient Glow** rules:
+- Precision Mono base: pure White `#FFFFFF` or deep Black `#0D0D0D` carries the structure
+- Ambient Glow as the only decorative layer: three-color radial wash using Cyan `#06B6D4` + Violet `#8B5CF6` + Rose `#EC4899` — always all three coexisting, always radial, never stripe, never single-color pull, never full-surface fill
+- One ambient-glow accent per surface (CTA chip, key metric, active workflow node)
 - Builder Stack typography (PP Editorial New + Cabinet Grotesk + Geist + JetBrains Mono)
-- Double-Bezel surface construction
+- Double-Bezel surface construction (Gray-50 outer / White inner, 24/18px concentric radii)
 - 3% grain overlay (omit on operational, OOH-print, and duotone-portrait surfaces)
-- No teal, no navy, no azure, no purple-to-blue gradient
+- No teal-to-blue, no purple-to-blue stripe gradients of any kind
 - No banned fonts (Inter, Roboto, Open Sans, Helvetica, SF Pro, Source Sans Pro, Space Grotesk)
-- No #000 / #FFF — Ink and Bone only
+- No cool grays (`#FAFAFA`, `#F5F5F5`, `#E5E5E5`) — use Gray-50 / Gray-400 / Gray-700 instead
+- Neutrals only: Black, White, Gray-50, Gray-400, Gray-700, Onyx (dark surfaces)
 
-When a playbook above conflicts with the quick reference, the **quick reference wins**; raise an issue rather than override silently.
+When a playbook above conflicts with the quick reference or brandbook, the **brandbook wins**; raise an issue rather than override silently.

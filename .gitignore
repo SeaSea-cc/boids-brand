@@ -27,3 +27,26 @@ scripts/.cache/
 # Node (if any tooling is added later)
 node_modules/
 .pnpm-store/
+
+# Image hygiene — only PNG exemplars under references/exemplars/ are allowed in this repo.
+# Per-deck / per-campaign output belongs in <workspace>/brand-outputs/, not here.
+*.jpg
+*.jpeg
+*.webp
+*.avif
+*.gif
+*.tiff
+*.bmp
+*.heic
+*.heif
+*.psd
+*.ai
+*.sketch
+*.fig
+*.pdf
+
+# Anywhere else than references/exemplars/, PNGs are also blocked.
+# (PNGs explicitly allowed under references/exemplars/ — see references/exemplars/README.md.)
+/*.png
+/**/*.png
+!references/exemplars/**/*.png

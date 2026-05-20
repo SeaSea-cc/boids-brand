@@ -6,13 +6,15 @@ This document defines how the **Boids** name, word mark, logo, and visual identi
 
 ## Owned Marks
 
-The following are trademarks of Nevamind-AI:
+The following are trademarks of Nevamind:
 
 - **BOIDS** (word mark)
 - **Boids** logo (any visual mark or wordmark variant)
 - **boids.so** (product domain)
-- **Builder Ink** (color system identifier)
-- **Build. Run. Publish.** (brand motto, as used in product context)
+- **Precision Mono + Ambient Glow** (v1.2 color system identifier)
+- **Builder Ink** (v1.1 color system identifier — superseded, retained for historical reference)
+- **Build. Distribute. Work.** (v1.2 brand motto, as used in product context)
+- **Build. Run. Publish.** (v1.1 brand motto — superseded, retained for historical reference)
 
 ## Permitted Uses Without Prior Permission
 
@@ -43,7 +45,7 @@ You may **not**, without prior written permission from Nevamind-AI:
 This skill (`boids-brand`) defines the visual and verbal system for **Boids-owned and Boids-authorized output**. If you are producing such output as an authorized partner, customer, or contractor:
 
 - Follow the rules in `SKILL.md` and `references/`.
-- Apply Builder Ink palette, Builder Stack typography, and Double-Bezel surface system exactly as specified.
+- Apply the v1.2 Precision Mono + Ambient Glow palette, Builder Stack typography, and Double-Bezel surface system exactly as specified in `references/brandbook.md`.
 - Use the canonical positioning and messaging library.
 
 If you are **not** authorized to publish Boids-branded output, this skill is provided as a reference for the brand system — please do not apply it to non-Boids work as if it were your own brand.
