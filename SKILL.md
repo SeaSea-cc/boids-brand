@@ -92,8 +92,6 @@ Before delivering output:
 | Skill | Use For |
 |---|---|
 | `seasea-brand` | Master-brand surfaces; switch when artifact is Seasea, not Boids |
-| `musein-brand` | Switch when artifact is Musein.ai creative surface |
-| `modelapi-brand` | Switch when artifact is ModelAPI.co developer surface |
 | `high-end-visual-design` | Underlying anti-default UI rules — Boids adopts them as baseline |
 | `seasea-deck` | Render a markdown deck → 16:9 PNG slides |
 | `hyperframes` / `heygen` | Convert narration + visuals → final video |
