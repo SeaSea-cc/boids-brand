@@ -611,7 +611,7 @@ Where a playbook says "single Phosphor accent" or "Phosphor chip", read it as "s
 - Describe the workflow: BUILD → DEPLOY → RUN → RANK → CREDIT
 - Anchor to MemU: agents remember across sessions
 - Close with a specific outcome (number, result, ICP signal)
-- Never: magic framing, one-click language, consumer-AI tone
+- Never: magic framing, consumer-AI tone
 
 **TTS defaults:** English, Geist-compatible pacing (160–180 wpm), pause at each beat transition.
 

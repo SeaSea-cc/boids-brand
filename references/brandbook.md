@@ -35,7 +35,6 @@ Both products are built on the same agent network. What is published by one is c
 |----------|-----|
 | "AI chatbot marketplace" | Too consumer, too passive |
 | "Talk to AI celebrities" | Persona-agent framing, not professional work |
-| "One-click AI automation" | Reduces Boids to one use case |
 | "No-code AI tool" | Tool framing; Boids is a platform |
 | "Developer API marketplace" | Too narrow; ignores the consumer product |
 | "AI app store" | Too static; agents on Boids are built, distributed, called, composed, and used |
@@ -240,7 +239,7 @@ Before publishing any Boids copy:
 ### 3.7 Forbidden Phrasings
 
 - "AI chatbot" / "chat with AI"
-- "No-code" / "one-click"
+- "No-code"
 - "Talk to your AI"
 - "AI-powered" (vague, avoid)
 - "Cutting-edge" / "state-of-the-art" / "revolutionary"

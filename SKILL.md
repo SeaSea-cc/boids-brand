@@ -95,7 +95,7 @@ Start with the application surface matrix at the top of `references/application-
 
 ### 3. Apply the brand layer in this order
 
-1. **Positioning** — confirm the category label is one of the approved set in `references/brand-quick-reference.md`. Forbidden: "AI chatbot marketplace", "Talk to AI celebrities", "One-click AI automation", "No-code AI tool", "Developer API marketplace", "AI app store".
+1. **Positioning** — confirm the category label is one of the approved set in `references/brand-quick-reference.md`. Forbidden: "AI chatbot marketplace", "Talk to AI celebrities", "No-code AI tool", "Developer API marketplace", "AI app store".
 2. **Verb discipline** — use Boids verbs: *build, distribute, publish, call, compose, deploy, ship, earn, compound, bring, integrate, run.* Avoid: *chat, discover, consume, talk, play, explore, connect.*
 3. **Hero line** — open with the canonical hero line from `references/messaging-library.md`. Universal: *Build expert agents. Bring them everywhere.* C-end: *Bring expert agents to work with you.* API / CLI: *Build products with agents. Ship through API and CLI.*
 4. **Voice & tone** — Builder confidence, professional precision, systems thinking, empathetic peer, measured ambition. Boids speaks like someone who has already shipped the system.
@@ -107,7 +107,7 @@ Start with the application surface matrix at the top of `references/application-
 Before delivering output:
 
 - [ ] Product line is declared: C-end product, API / CLI, or brand-level / universal
-- [ ] No forbidden positioning labels ("AI chatbot marketplace", "Talk to AI celebrities", "one-click", "no-code tool", "AI app store")
+- [ ] No forbidden positioning labels ("AI chatbot marketplace", "Talk to AI celebrities", "no-code tool", "AI app store")
 - [ ] Verbs are Boids verbs only (build · distribute · publish · call · compose · deploy · ship · earn · compound · bring · integrate · run)
 - [ ] No avoided verbs (chat · discover · consume · talk · play · explore · connect)
 - [ ] Hero line drawn from canonical v1.2 set (universal / C-end / API / CLI)

@@ -135,7 +135,7 @@ Before publishing any Boids copy:
 
 Never use:
 - "AI chatbot" / "chat with AI" / "talk to bots"
-- "No-code" / "one-click"
+- "No-code"
 - "Talk to your AI" / "discover AI agents" / "play with AI characters"
 - "AI-powered" (vague — avoid)
 - "Cutting-edge" / "state-of-the-art" / "revolutionary"

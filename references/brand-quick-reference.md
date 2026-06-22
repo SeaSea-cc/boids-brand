@@ -52,7 +52,6 @@ Every Boids agent is **callable, composable, distributable, verifiable, and work
 |---|---|
 | "AI chatbot marketplace" | Too consumer, too passive |
 | "Talk to AI celebrities" | Persona-agent framing, not professional work |
-| "One-click AI automation" | Reduces Boids to one use case |
 | "No-code AI tool" | Tool framing; Boids is a platform |
 | "Developer API marketplace" | Too narrow; ignores the consumer product |
 | "AI app store" | Too static; agents on Boids are built, distributed, called, composed, and used |
@@ -96,7 +95,7 @@ Boids speaks like someone who has already shipped the system — not someone try
 ### Forbidden Phrasings
 
 - "AI chatbot" / "chat with AI"
-- "No-code" / "one-click"
+- "No-code"
 - "Talk to your AI"
 - "AI-powered" (vague, avoid)
 - "Cutting-edge" / "state-of-the-art" / "revolutionary"
